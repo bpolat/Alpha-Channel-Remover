@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39595E019CA3000005A606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595DF19CA3000005A606C /* Cocoa.framework */; };
+		D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39595E819CA3000005A606C /* InfoPlist.strings */; };
+		D39595EC19CA3000005A606C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39595EB19CA3000005A606C /* main.m */; };
+		D39595F019CA3000005A606C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D39595EE19CA3000005A606C /* Credits.rtf */; };
+		D39595F319CA3000005A606C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39595F219CA3000005A606C /* AppDelegate.m */; };
+		D39595F619CA3000005A606C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39595F419CA3000005A606C /* MainMenu.xib */; };
+		D39595F819CA3000005A606C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39595F719CA3000005A606C /* Images.xcassets */; };
+		D39595FF19CA3000005A606C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595FE19CA3000005A606C /* XCTest.framework */; };
+		D395960019CA3000005A606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595DF19CA3000005A606C /* Cocoa.framework */; };
+		D395960819CA3000005A606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D395960619CA3000005A606C /* InfoPlist.strings */; };
+		D395960A19CA3000005A606C /* Alpha_Channel_RemoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D395960919CA3000005A606C /* Alpha_Channel_RemoverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D395960119CA3000005A606C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39595D419CA3000005A606C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39595DB19CA3000005A606C;
+			remoteInfo = "Alpha Channel Remover";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D39595DC19CA3000005A606C /* Alpha Channel Remover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha Channel Remover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39595DF19CA3000005A606C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D39595E219CA3000005A606C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D39595E319CA3000005A606C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D39595E419CA3000005A606C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D39595E719CA3000005A606C /* Alpha Channel Remover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alpha Channel Remover-Info.plist"; sourceTree = "<group>"; };
+		D39595E919CA3000005A606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D39595EB19CA3000005A606C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D39595ED19CA3000005A606C /* Alpha Channel Remover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alpha Channel Remover-Prefix.pch"; sourceTree = "<group>"; };
+		D39595EF19CA3000005A606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D39595F119CA3000005A606C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D39595F219CA3000005A606C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D39595F519CA3000005A606C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D39595F719CA3000005A606C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D39595FD19CA3000005A606C /* Alpha Channel RemoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alpha Channel RemoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39595FE19CA3000005A606C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D395960519CA3000005A606C /* Alpha Channel RemoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alpha Channel RemoverTests-Info.plist"; sourceTree = "<group>"; };
+		D395960719CA3000005A606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D395960919CA3000005A606C /* Alpha_Channel_RemoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alpha_Channel_RemoverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39595D919CA3000005A606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39595E019CA3000005A606C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39595FA19CA3000005A606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D395960019CA3000005A606C /* Cocoa.framework in Frameworks */,
+				D39595FF19CA3000005A606C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39595D319CA3000005A606C = {
+			isa = PBXGroup;
+			children = (
+				D39595E519CA3000005A606C /* Alpha Channel Remover */,
+				D395960319CA3000005A606C /* Alpha Channel RemoverTests */,
+				D39595DE19CA3000005A606C /* Frameworks */,
+				D39595DD19CA3000005A606C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39595DD19CA3000005A606C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39595DC19CA3000005A606C /* Alpha Channel Remover.app */,
+				D39595FD19CA3000005A606C /* Alpha Channel RemoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39595DE19CA3000005A606C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D39595DF19CA3000005A606C /* Cocoa.framework */,
+				D39595FE19CA3000005A606C /* XCTest.framework */,
+				D39595E119CA3000005A606C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39595E119CA3000005A606C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D39595E219CA3000005A606C /* AppKit.framework */,
+				D39595E319CA3000005A606C /* CoreData.framework */,
+				D39595E419CA3000005A606C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D39595E519CA3000005A606C /* Alpha Channel Remover */ = {
+			isa = PBXGroup;
+			children = (
+				D39595F119CA3000005A606C /* AppDelegate.h */,
+				D39595F219CA3000005A606C /* AppDelegate.m */,
+				D39595F419CA3000005A606C /* MainMenu.xib */,
+				D39595F719CA3000005A606C /* Images.xcassets */,
+				D39595E619CA3000005A606C /* Supporting Files */,
+			);
+			path = "Alpha Channel Remover";
+			sourceTree = "<group>";
+		};
+		D39595E619CA3000005A606C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39595E719CA3000005A606C /* Alpha Channel Remover-Info.plist */,
+				D39595E819CA3000005A606C /* InfoPlist.strings */,
+				D39595EB19CA3000005A606C /* main.m */,
+				D39595ED19CA3000005A606C /* Alpha Channel Remover-Prefix.pch */,
+				D39595EE19CA3000005A606C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D395960319CA3000005A606C /* Alpha Channel RemoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D395960919CA3000005A606C /* Alpha_Channel_RemoverTests.m */,
+				D395960419CA3000005A606C /* Supporting Files */,
+			);
+			path = "Alpha Channel RemoverTests";
+			sourceTree = "<group>";
+		};
+		D395960419CA3000005A606C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D395960519CA3000005A606C /* Alpha Channel RemoverTests-Info.plist */,
+				D395960619CA3000005A606C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39595DB19CA3000005A606C /* Alpha Channel Remover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D395960D19CA3000005A606C /* Build configuration list for PBXNativeTarget "Alpha Channel Remover" */;
+			buildPhases = (
+				D39595D819CA3000005A606C /* Sources */,
+				D39595D919CA3000005A606C /* Frameworks */,
+				D39595DA19CA3000005A606C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alpha Channel Remover";
+			productName = "Alpha Channel Remover";
+			productReference = D39595DC19CA3000005A606C /* Alpha Channel Remover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39595FC19CA3000005A606C /* Alpha Channel RemoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D395961019CA3000005A606C /* Build configuration list for PBXNativeTarget "Alpha Channel RemoverTests" */;
+			buildPhases = (
+				D39595F919CA3000005A606C /* Sources */,
+				D39595FA19CA3000005A606C /* Frameworks */,
+				D39595FB19CA3000005A606C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D395960219CA3000005A606C /* PBXTargetDependency */,
+			);
+			name = "Alpha Channel RemoverTests";
+			productName = "Alpha Channel RemoverTests";
+			productReference = D39595FD19CA3000005A606C /* Alpha Channel RemoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39595D419CA3000005A606C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = polat;
+				TargetAttributes = {
+					D39595FC19CA3000005A606C = {
+						TestTargetID = D39595DB19CA3000005A606C;
+					};
+				};
+			};
+			buildConfigurationList = D39595D719CA3000005A606C /* Build configuration list for PBXProject "Alpha Channel Remover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39595D319CA3000005A606C;
+			productRefGroup = D39595DD19CA3000005A606C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39595DB19CA3000005A606C /* Alpha Channel Remover */,
+				D39595FC19CA3000005A606C /* Alpha Channel RemoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39595DA19CA3000005A606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */,
+				D39595F819CA3000005A606C /* Images.xcassets in Resources */,
+				D39595F019CA3000005A606C /* Credits.rtf in Resources */,
+				D39595F619CA3000005A606C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39595FB19CA3000005A606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D395960819CA3000005A606C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39595D819CA3000005A606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39595F319CA3000005A606C /* AppDelegate.m in Sources */,
+				D39595EC19CA3000005A606C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39595F919CA3000005A606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D395960A19CA3000005A606C /* Alpha_Channel_RemoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D395960219CA3000005A606C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39595DB19CA3000005A606C /* Alpha Channel Remover */;
+			targetProxy = D395960119CA3000005A606C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39595E819CA3000005A606C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39595E919CA3000005A606C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D39595EE19CA3000005A606C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39595EF19CA3000005A606C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D39595F419CA3000005A606C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39595F519CA3000005A606C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D395960619CA3000005A606C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D395960719CA3000005A606C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D395960B19CA3000005A606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D395960C19CA3000005A606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D395960E19CA3000005A606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
+				INFOPLIST_FILE = "Alpha Channel Remover/Alpha Channel Remover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D395960F19CA3000005A606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
+				INFOPLIST_FILE = "Alpha Channel Remover/Alpha Channel Remover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D395961119CA3000005A606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alpha Channel Remover.app/Contents/MacOS/Alpha Channel Remover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alpha Channel RemoverTests/Alpha Channel RemoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D395961219CA3000005A606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alpha Channel Remover.app/Contents/MacOS/Alpha Channel Remover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
+				INFOPLIST_FILE = "Alpha Channel RemoverTests/Alpha Channel RemoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39595D719CA3000005A606C /* Build configuration list for PBXProject "Alpha Channel Remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D395960B19CA3000005A606C /* Debug */,
+				D395960C19CA3000005A606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D395960D19CA3000005A606C /* Build configuration list for PBXNativeTarget "Alpha Channel Remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D395960E19CA3000005A606C /* Debug */,
+				D395960F19CA3000005A606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D395961019CA3000005A606C /* Build configuration list for PBXNativeTarget "Alpha Channel RemoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D395961119CA3000005A606C /* Debug */,
+				D395961219CA3000005A606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39595D419CA3000005A606C /* Project object */;
+}
