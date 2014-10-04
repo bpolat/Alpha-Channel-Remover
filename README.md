@@ -19,7 +19,7 @@ for any question:  bpolat@live.com
 
 Next Step
 ================
-Please contribute project as much as you can. Planning to improve UI, adding progress indicator so on....
+Please feel free to contribute the project as much as you can. Planning to improve UI, adding progress indicator and fixing current bugs.
 
 
 License
