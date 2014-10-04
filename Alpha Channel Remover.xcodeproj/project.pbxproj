@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D36CE45A19CEB79D0096DF8F /* Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = D36CE45919CEB79D0096DF8F /* Drag.m */; };
 		D383AFBC19E052DE00FD68AB /* alpha channel remover.gif in Resources */ = {isa = PBXBuildFile; fileRef = D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */; };
+		D383AFBE19E0545000FD68AB /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = D383AFBD19E0545000FD68AB /* title.png */; };
 		D39595E019CA3000005A606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595DF19CA3000005A606C /* Cocoa.framework */; };
 		D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39595E819CA3000005A606C /* InfoPlist.strings */; };
 		D39595EC19CA3000005A606C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39595EB19CA3000005A606C /* main.m */; };
@@ -39,6 +40,7 @@
 		D36CE45819CEB79D0096DF8F /* Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drag.h; sourceTree = "<group>"; };
 		D36CE45919CEB79D0096DF8F /* Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drag.m; sourceTree = "<group>"; };
 		D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "alpha channel remover.gif"; sourceTree = "<group>"; };
+		D383AFBD19E0545000FD68AB /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = Artwork/title.png; sourceTree = "<group>"; };
 		D39595DC19CA3000005A606C /* Alpha Channel Remover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha Channel Remover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39595DF19CA3000005A606C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D39595E219CA3000005A606C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -89,6 +91,7 @@
 		D39595D319CA3000005A606C = {
 			isa = PBXGroup;
 			children = (
+				D383AFBD19E0545000FD68AB /* title.png */,
 				D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */,
 				D39595E519CA3000005A606C /* Alpha Channel Remover */,
 				D395960319CA3000005A606C /* Alpha Channel RemoverTests */,
@@ -251,6 +254,7 @@
 				D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */,
 				D39595F819CA3000005A606C /* Images.xcassets in Resources */,
 				D39595F019CA3000005A606C /* Credits.rtf in Resources */,
+				D383AFBE19E0545000FD68AB /* title.png in Resources */,
 				D383AFBC19E052DE00FD68AB /* alpha channel remover.gif in Resources */,
 				D39595F619CA3000005A606C /* MainMenu.xib in Resources */,
 			);
