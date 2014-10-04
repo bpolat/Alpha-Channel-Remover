@@ -3,9 +3,8 @@ Alpha-Channel-Remover
 
 Mac OS X Application which allow users to remove alpha (transparency) from images. You can remove alpha channel of multiple files within seconds.
 
-
+ ![alt tag](https://github.com/bpolat/Alpha-Channel-Remover/blob/master/Alpha%20Channel%20Remover/title.png)
  ![alt tag](https://github.com/bpolat/Alpha-Channel-Remover/blob/master/Alpha%20Channel%20Remover/alpha%20channel%20remover.gif)
- ![alt tag](https://raw.githubusercontent.com/bpolat/Music-Player/master/Music%20Player/music%20player.gif)
 
 
 
