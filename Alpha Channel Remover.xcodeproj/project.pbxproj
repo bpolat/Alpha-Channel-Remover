@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36CE45A19CEB79D0096DF8F /* Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = D36CE45919CEB79D0096DF8F /* Drag.m */; };
+		D383AFBC19E052DE00FD68AB /* alpha channel remover.gif in Resources */ = {isa = PBXBuildFile; fileRef = D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */; };
 		D39595E019CA3000005A606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595DF19CA3000005A606C /* Cocoa.framework */; };
 		D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39595E819CA3000005A606C /* InfoPlist.strings */; };
 		D39595EC19CA3000005A606C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39595EB19CA3000005A606C /* main.m */; };
@@ -18,6 +20,9 @@
 		D395960019CA3000005A606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595DF19CA3000005A606C /* Cocoa.framework */; };
 		D395960819CA3000005A606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D395960619CA3000005A606C /* InfoPlist.strings */; };
 		D395960A19CA3000005A606C /* Alpha_Channel_RemoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D395960919CA3000005A606C /* Alpha_Channel_RemoverTests.m */; };
+		D395961519CA3576005A606C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39595E419CA3000005A606C /* Foundation.framework */; };
+		D395961719CA3580005A606C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D395961619CA3580005A606C /* CoreGraphics.framework */; };
+		D395961919CA3587005A606C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D395961819CA3587005A606C /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36CE45819CEB79D0096DF8F /* Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drag.h; sourceTree = "<group>"; };
+		D36CE45919CEB79D0096DF8F /* Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drag.m; sourceTree = "<group>"; };
+		D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "alpha channel remover.gif"; sourceTree = "<group>"; };
 		D39595DC19CA3000005A606C /* Alpha Channel Remover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha Channel Remover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39595DF19CA3000005A606C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D39595E219CA3000005A606C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +58,8 @@
 		D395960519CA3000005A606C /* Alpha Channel RemoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alpha Channel RemoverTests-Info.plist"; sourceTree = "<group>"; };
 		D395960719CA3000005A606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D395960919CA3000005A606C /* Alpha_Channel_RemoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alpha_Channel_RemoverTests.m; sourceTree = "<group>"; };
+		D395961619CA3580005A606C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D395961819CA3587005A606C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D395961919CA3587005A606C /* CoreFoundation.framework in Frameworks */,
+				D395961719CA3580005A606C /* CoreGraphics.framework in Frameworks */,
+				D395961519CA3576005A606C /* Foundation.framework in Frameworks */,
 				D39595E019CA3000005A606C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +89,7 @@
 		D39595D319CA3000005A606C = {
 			isa = PBXGroup;
 			children = (
+				D383AFBB19E052DE00FD68AB /* alpha channel remover.gif */,
 				D39595E519CA3000005A606C /* Alpha Channel Remover */,
 				D395960319CA3000005A606C /* Alpha Channel RemoverTests */,
 				D39595DE19CA3000005A606C /* Frameworks */,
@@ -95,6 +109,8 @@
 		D39595DE19CA3000005A606C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D395961819CA3587005A606C /* CoreFoundation.framework */,
+				D395961619CA3580005A606C /* CoreGraphics.framework */,
 				D39595DF19CA3000005A606C /* Cocoa.framework */,
 				D39595FE19CA3000005A606C /* XCTest.framework */,
 				D39595E119CA3000005A606C /* Other Frameworks */,
@@ -118,6 +134,8 @@
 				D39595F119CA3000005A606C /* AppDelegate.h */,
 				D39595F219CA3000005A606C /* AppDelegate.m */,
 				D39595F419CA3000005A606C /* MainMenu.xib */,
+				D36CE45819CEB79D0096DF8F /* Drag.h */,
+				D36CE45919CEB79D0096DF8F /* Drag.m */,
 				D39595F719CA3000005A606C /* Images.xcassets */,
 				D39595E619CA3000005A606C /* Supporting Files */,
 			);
@@ -233,6 +251,7 @@
 				D39595EA19CA3000005A606C /* InfoPlist.strings in Resources */,
 				D39595F819CA3000005A606C /* Images.xcassets in Resources */,
 				D39595F019CA3000005A606C /* Credits.rtf in Resources */,
+				D383AFBC19E052DE00FD68AB /* alpha channel remover.gif in Resources */,
 				D39595F619CA3000005A606C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36CE45A19CEB79D0096DF8F /* Drag.m in Sources */,
 				D39595F319CA3000005A606C /* AppDelegate.m in Sources */,
 				D39595EC19CA3000005A606C /* main.m in Sources */,
 			);
@@ -389,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
 				INFOPLIST_FILE = "Alpha Channel Remover/Alpha Channel Remover-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alpha Channel Remover/Alpha Channel Remover-Prefix.pch";
 				INFOPLIST_FILE = "Alpha Channel Remover/Alpha Channel Remover-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +488,7 @@
 				D395960F19CA3000005A606C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D395961019CA3000005A606C /* Build configuration list for PBXNativeTarget "Alpha Channel RemoverTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +497,7 @@
 				D395961219CA3000005A606C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
